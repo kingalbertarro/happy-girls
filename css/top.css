@@ -622,7 +622,7 @@
     font-size: 12px !important;
     padding: 0 0 0 35px !important;
   }
-  #aura p { font-size: 11px !important; width: 68% !important; }
+  #aura p { font-size: 11px !important; width: 75% !important; }
   #aura p span { font-size: 8px !important; }
 }
 /* Extra small devices (portrait phones, less than 576px) */
@@ -638,10 +638,12 @@
   #main { padding-top: 0; }
   #stain h2 {
     background-image: url(../images/title01-sp.png);
+    background-size: contain;
     font-size: 16px;
+    letter-spacing: -1px;
     line-height: 32px;
     margin: 0 auto 15px;
-    padding: 0;
+    padding: 3% 0;
     text-align: center;
     width: 90%;
   }
@@ -654,10 +656,12 @@
   #cause { margin: 40px 0 0; }
   #cause h2 {
     background-image: url(../images/title02-sp.png);
+    background-size: contain;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: -1px;
     margin: 0 auto 30px;
-    padding: 22px 44px 4px 140px;
+    padding: 8% 8% 6% 36.5%;
     text-align: center;
     width: 90%;
   }
@@ -675,9 +679,11 @@
   #how { margin: 50px 0 0; }
   #how h2 {
     background-image: url(../images/title03-sp.png);
+    background-size: contain;
     font-size: 16px;
+    letter-spacing: -1px;
     margin: 0 auto 15px;
-    padding: 26px 0 10px 100px;
+    padding: 8% 8% 5% 35%;
     text-align: center;
     width: 90%;
   }
@@ -689,9 +695,10 @@
   #fall { margin: 50px 0 0; }
   #fall h2 {
     background-image: url(../images/title04-sp.png);
+    background-size: contain;
     font-size: 16px;
     margin: 0 auto 15px;
-    padding: 26px 0 15px 130px;
+    padding: 8% 2% 5% 38%;
     text-align: center;
     width: 90%;
   }
@@ -754,13 +761,14 @@
   #aura { margin: 40px auto 0; }
   #aura h2 {
     background-image: url(../images/title05-sp.png);
+    background-size: contain;
     font-size: 16px;
     margin: 0 auto 15px;
-    padding: 0 0 0 50px;
+    padding: 5% 0 5% 10%;
     text-align: center;
     width: 90%;
   }
-  #aura p { font-size: 15px; line-height: 20px; margin: 0 auto; width: 65%; }
+  #aura p { font-size: 15px; line-height: 20px; margin: 0 auto; width: 85%; }
   #aura p span { font-size: 12px; }
   #aura .figure-one {
     margin-top: 15px;
@@ -847,10 +855,11 @@
   #main { padding-top: 0; }
   #stain h2 {
     background-image: url(../images/title01-sp.png);
+    background-size: contain;
     font-size: 26px;
     line-height: 26px;
     margin: 0 auto 25px;
-    padding: 18px 0;
+    padding: 4% 0;
     text-align: center;
     width: 90%;
   }
@@ -863,12 +872,16 @@
   #cause { margin: 40px 0 0; }
   #cause h2 {
     background-image: url(../images/title02-sp.png);
+    background-size: contain;
     font-size: 26px;
     line-height: 35px;
     margin: 0 auto 30px;
-    padding: 30px 44px 8px 225px;
+    padding: 5% 14% 4% 42%;;
     text-align: center;
     width: 90%;
+  }
+  @media (min-width: 576px) and (max-width: 635px) {
+    #cause h2 { font-size: 23px !important; }
   }
   #cause .food-list { width: 95%; }
   #cause .food-list .food-items {
@@ -884,9 +897,10 @@
   #how { margin: 50px 0 0; }
   #how h2 {
     background-image: url(../images/title03-sp.png);
+    background-size: contain;
     font-size: 26px;
     margin: 0 auto 15px;
-    padding: 52px 0 25px 160px;
+    padding: 9% 0 5% 24%;
     text-align: center;
     width: 90%;
   }
@@ -898,9 +912,10 @@
   #fall { margin: 50px 0 0; }
   #fall h2 {
     background-image: url(../images/title04-sp.png);
+    background-size: contain;
     font-size: 26px;
     margin: 0 auto 15px;
-    padding: 55px 0 30px 224px;
+    padding: 10% 0 6% 35%;
     text-align: center;
     width: 90%;
   }
@@ -963,9 +978,10 @@
  #aura { margin: 40px auto 0; }
  #aura h2 {
     background-image: url(../images/title05-sp.png);
+    background-size: contain;
     font-size: 26px;
     margin: 0 auto 15px;
-    padding: 15px 0 15px 50px;
+    padding: 4% 0 4% 5%;
     text-align: center;
     width: 90%;
   }
@@ -1043,6 +1059,10 @@
   #aura .figure-eight .sp { display: block; }
 }
 
+@media (min-width: 768px) and (max-width: 930px) {
+  #cause h2 { font-size: 30px !important; }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   .cover { margin-bottom: 60px; }
@@ -1056,10 +1076,11 @@
   #main { padding-top: 0; }
   #stain h2 {
     background-image: url(../images/title01-sp.png);
+    background-size: contain;
     font-size: 32px;
     line-height: 32px;
     margin: 0 auto 50px;
-    padding: 25px 0;
+    padding: 4% 0;
     text-align: center;
     width: 90%;
   }
@@ -1072,10 +1093,11 @@
   #cause { margin: 80px 0 0; }
   #cause h2 {
     background-image: url(../images/title02-sp.png);
+    background-size: contain;
     font-size: 32px;
     line-height: 38px;
     margin: 0 auto 30px;
-    padding: 40px 76px 20px 288px;
+    padding: 6% 14% 4% 40%;
     text-align: center;
     width: 90%;
   }
@@ -1093,10 +1115,11 @@
   #how { margin: 100px 0 0; }
   #how h2 {
     background-image: url(../images/title03-sp.png);
+    background-size: contain;
     font-size: 32px;
     line-height: 32px;
     margin: 0 auto 30px;
-    padding: 70px 0 40px 200px;
+    padding: 9% 0 6% 22%;
     text-align: center;
     width: 90%;
   }
@@ -1108,10 +1131,11 @@
   #fall { margin: 50px 0 0; }
   #fall h2 {
     background-image: url(../images/title04-sp.png);
+    background-size: contain;
     font-size: 32px;
     line-height: 32px;
     margin: 0 auto 30px;
-    padding: 70px 0 50px 280px;
+    padding: 10% 0 6% 35%;
     text-align: center;
     width: 90%;
   }
@@ -1174,10 +1198,11 @@
  #aura { margin: 40px auto 0; }
  #aura h2 {
     background-image: url(../images/title05-sp.png);
+    background-size: contain;
     font-size: 32px;
     line-height: 32px;
     margin: 0 auto 30px;
-    padding: 30px 0 30px 50px;
+    padding: 4% 0 4% 10%;
     text-align: center;
     width: 90%;
   }
