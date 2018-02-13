@@ -628,7 +628,7 @@
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-  .cover { margin-bottom: 40px; }
+  .cover { margin-bottom: 10px; }
   #p-contents-wrap {
     margin: -30px auto 0;
     padding: 50px 0 880px;
@@ -654,7 +654,7 @@
     line-height: 28px;
     width: 90%;
   }
-  #cause { margin: 40px 0 0; }
+  #cause { margin: 20px 0 0; }
   #cause h2 {
     background-image: url(../images/title02-sp.png);
     background-size: contain;
@@ -678,7 +678,7 @@
   }
   #cause .food-list .food-items img { width: 100%; }
   #cause .food-list .food-items:nth-child(n+9) { margin-bottom: 15px; }
-  #how { margin: 50px 0 0; }
+  #how { margin: 20px 0 0; }
   #how h2 {
     background-image: url(../images/title03-sp.png);
     background-size: contain;
@@ -694,7 +694,7 @@
     line-height: 28px;
     width: 90%;
   }
-  #fall { margin: 50px 0 0; }
+  #fall { margin: 20px 0 0; }
   #fall h2 {
     background-image: url(../images/title04-sp.png);
     background-size: contain;
@@ -760,7 +760,7 @@
     width: 50%;
   }
   #fall .fall-content .check-three p span.nl-sp { display: block; }
-  #aura { margin: 40px auto 0; }
+  #aura { margin: 20px auto 0; }
   #aura h2 {
     background-image: url(../images/title05-sp.png);
     background-size: contain;
