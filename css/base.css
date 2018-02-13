@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  font-family: "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+  font-family: "Hiragino Mincho Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
   -webkit-text-size-adjust: 100%;
   background-color: #fff;
   color: #000;
@@ -485,6 +485,7 @@ figure { margin: 0; padding: 0; }
   bottom: -45vw;
 
 }
+.pagetop a:hover { opacity: .8; }
 @media all and (min-width: 768px) {
   #main {
     background: url(../images/bg_footer01_pc.png), url(../images/bg_visual01.jpg);
