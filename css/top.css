@@ -151,7 +151,7 @@
 /* STAIN */
 #stain {
   display: block;
-  margin: 0 0 0;
+  margin: 15px 0 0;
   overflow: hidden;
   padding: 0;
   position: relative;
@@ -164,10 +164,10 @@
   display: block;
   font-size: 32px;
   font-weight: bold;
-  letter-spacing: -2px;
+  letter-spacing: 0;
   line-height: 32px;
-  margin: 0 auto 35px;
-  padding: 19px 0 19px 40px;
+  margin: 0 auto 30px;
+  padding: 19px 0 19px 35px;
   width: 647px;
 }
 #stain p {
@@ -182,7 +182,7 @@
 /* CAUSE */
 #cause {
   display: block;
-  margin: 80px 0 0;
+  margin: 66px 0 0;
   overflow: hidden;
   padding: 0;
   position: relative;
@@ -267,7 +267,7 @@
   font-weight: bold;
   letter-spacing: -2px;
   line-height: 32px;
-  margin: 0 auto 35px;
+  margin: 0 auto 10px;
   padding: 70px 0 50px 290px;
   width: 672px;
 }
@@ -388,7 +388,7 @@
   overflow: hidden;
   width: 926px;
 }
-#aura .point-one .p-one { margin-bottom: 30px; }
+#aura .point-one .p-one { margin-bottom: 30px; width: 766px; }
 #aura .point-one .p-one .pc { display: block; }
 #aura .point-one .p-one .sp { display: none; }
 #aura .point-two {
@@ -403,7 +403,7 @@
   overflow: hidden;
   width: 785px;
 }
-#aura .point-two .p-two { margin-bottom: 30px; }
+#aura .point-two .p-two { margin-bottom: 30px; width: 911px; }
 #aura .point-two .p-two .pc { display: block; }
 #aura .point-two .p-two .sp { display: none; }
 #aura .figure-one { margin-top: 30px; margin-bottom: 40px; width: 981px; }
@@ -694,7 +694,7 @@
     line-height: 28px;
     width: 90%;
   }
-  #fall { margin: 20px 0 0; }
+  #fall { margin: 50px 0 0; }
   #fall h2 {
     background-image: url(../images/title04-sp.png);
     background-size: contain;
@@ -803,7 +803,7 @@
     margin: 0 auto 40px;
     width: 90%;
   }
-  #aura .point-one .p-one { margin-bottom: 25px; }
+  #aura .point-one .p-one { margin-bottom: 25px; width: 100%; }
   #aura .point-one .p-one .pc { display: none; }
   #aura .point-one .p-one .sp { display: block; }
   #aura .figure-five {
@@ -824,7 +824,7 @@
     margin: 0 auto 40px;
     width: 90%;
   }
-  #aura .point-two .p-two { margin-bottom: 25px; }
+  #aura .point-two .p-two { margin-bottom: 25px; width: 100%; }
   #aura .point-two .figures { width: 100%; }
   #aura .point-two .p-two .pc { display: none; }
   #aura .point-two .p-two .sp { display: block; }
@@ -1021,7 +1021,7 @@
     margin: 0 auto 40px;
     width: 90%;
   }
-  #aura .point-one .p-one { margin-bottom: 25px; }
+  #aura .point-one .p-one { margin-bottom: 25px; width: 100%;}
   #aura .point-one .p-one .pc { display: none; }
   #aura .point-one .p-one .sp { display: block; }
   #aura .figure-five {
@@ -1042,7 +1042,7 @@
     margin: 0 auto 40px;
     width: 90%;
   }
-  #aura .point-two .p-two { margin-bottom: 25px; }
+  #aura .point-two .p-two { margin-bottom: 25px; width: 100%; }
   #aura .point-two .figures { width: 100%; }
   #aura .point-two .p-two .pc { display: none; }
   #aura .point-two .p-two .sp { display: block; }
