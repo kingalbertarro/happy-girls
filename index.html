@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="css/top.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/jquery.sameheight.js"></script>
 </head>
 <body>
 <header id="header" class="clearfix">
@@ -45,6 +46,7 @@
     <p><a href="#"><img src="images/bnr01_sp.jpg" alt="" class="spOnly"></a></p>
   </div>
 </header>
+
 
 
 <div class="visual">
@@ -222,5 +224,10 @@
 Copyright &copy; 2018 Sunstar Inc. All rights reserved</p>
   </div></div>
 </footer>
+<script>
+$(window).load(function() {
+  $.sameHeight();
+});
+</script>
 </body>
 </html>
