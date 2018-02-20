@@ -25,64 +25,27 @@
   <link rel="stylesheet" href="css/top.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/jquery.sameheight.js"></script>
-  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
-  <link rel="stylesheet" type="text/css" href="css/slick.css">
-  <script type="text/javascript">
-    $(function() {
-    $('#slick').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        cssEase: 'linear',
-        dots: true,
-        nextArrow: $('.next'),
-        prevArrow: $('.prev'),
-    });});
-  </script>
-
-  <script type="text/javascript">
-    $(function() {
-    $('#slick02').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-        responsive: [
-          {
-            breakpoint: 767,
-            settings: {
-              centerMode: true,
-              centerPadding: '20%',
-              slidesToShow: 1
-            }
-          }
-        ]
-    });});
-  </script>
 </head>
 <body>
 <header id="header" class="clearfix">
   <p class="hText"><a href="http://jp.sunstar.com/" target="_blank"><img src="images/txt_logo_pc.jpg" alt="SUNSTAR" class="pcOnly">
     <img src="images/txt_logo_sp.jpg" alt="SUNSTAR" class="spOnly"></a></p>
-  <h1 class="logo"><a href="#"><img src="images/logo_pc.jpg" alt="Ora&sup2;" class="pcOnly">
-    <img src="images/logo_sp.jpg" alt="Ora&sup2;" class="spOnly"></a></h1>
+  <h1 class="logo"><a href="./"><img src="images/logo_pc.jpg" alt="Ora2" class="pcOnly">
+    <img src="images/logo_sp.jpg" alt="Ora2" class="spOnly"></a></h1>
   <a href="javascript:;" class="menuSp spOnly"><span></span>
   MENU</a>
   <div class="hBlock">
     <ul class="gNavi clearfix">
-      <li class="active"><a href="#">TOP</a></li>
-      <li><a href="#">Ora&sup2; me </a></li>
-      <li><a href="#">Ora&sup2; PREMIUM</a></li>
-      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="me/">Ora&sup2;  me series</a></li>
+      <li><a href="premium/">Ora&sup2;  PREMIUM series </a></li>
+      <li><a href="products/">PRODUCT LIST</a></li>
       <!--<li><a href="#">TVCM</a></li>-->
-      <li><a href="#">ABOUT</a></li>
+      <li><a href="about/">ABOUT</a></li>
     </ul>
-    <p><a href="#"><img src="images/bnr01_sp.jpg" alt="バナー" class="spOnly"></a></p>
+    <p><a href="#"><img src="images/bnr01_sp.jpg" alt="" class="spOnly"></a></p>
   </div>
 </header>
+
 
 <div class="visual">
   <div class="cover">
@@ -224,7 +187,7 @@
 
 
   </div><!--content-->
-  <p class="pagetop"><a href="#header"><img src="images/pagetop.jpg" alt="TOP" width="50"></a></p>
+  <p class="pagetop"><a href="#header"><img src="images/pagetop.jpg" alt="" width="50"></a></p>
 </main>
 <footer id="footer">
   <div class="footer01">
@@ -236,12 +199,12 @@
       <li><a href="#" target="_blank"><img src="images/ico_sns04.png" alt="@cosme"></a></li>
     </ul>
     <ul class="fLink spOnly">
-      <li><a href="#">TOP</a></li>
-      <li><a href="#">Ora&sup2; me </a></li>
-      <li><a href="#">Ora&sup2; PREMIUM</a></li>
-      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="index.html">TOP</a></li>
+      <li><a href="me/">Ora&sup2; me series</a></li>
+      <li><a href="premium/">Ora&sup2; PREMIUM series</a></li>
+      <li><a href="products/">PRODUCT LIST</a></li>
       <!--<li><a href="#">TVCM</a></li>-->
-      <li><a href="#">ABOUT</a></li>
+      <li><a href="about/">ABOUT</a></li>
     </ul>
   </div></div>
 
@@ -255,15 +218,9 @@
       <li><a href="http://jp.sunstar.com/products/" target="_blank">製品サイト一覧</a></li>
       <li><a href="http://jp.sunstar.com/" target="_blank">サンスターホームページ</a></li>
     </ul>
-    <p class="copyright">&copy; Jason Brooks<br>
+    <p class="copyright">&copy; Jason Brooks<br>
 Copyright &copy; 2018 Sunstar Inc. All rights reserved</p>
   </div></div>
 </footer>
-
-<script>
-$(window).load(function() {
-  $.sameHeight();
-});
-</script>
 </body>
 </html>
