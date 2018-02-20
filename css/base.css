@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    font-family: "Hiragino Mincho Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
     -webkit-text-size-adjust: 100%;
     background-color: #fff;
     color: #000;
